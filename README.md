@@ -27,7 +27,7 @@ Then, we solve the following optimization problem:
 
 $$
 \begin{align*}
-        \underset{L \in \R^{n_x \times n_y}, P \in \R^{n_x \times n_x} }{\text{minimize}} \;  &\frac{1}{N} \sum_{k=1}^N \lVert y_k - C \hat{x}_k(L) \rVert^2_{W}, \\
+        \underset{L \in \mathbb{R}^{n_x \times n_y}, P \in \mathbb{R}^{n_x \times n_x} }{\text{minimize}} \;  &\frac{1}{N} \sum_{k=1}^N \lVert y_k - C \hat{x}_k(L) \rVert^2_{W}, \\
         \text{subject to} \quad
         &P = (A - L C) P (A -  L C)^\top + I, \\
         &  \alpha \text{Tr}(P-I) \leq 1, \\
