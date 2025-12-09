@@ -27,8 +27,6 @@ def InteriorPointSolver(scale, symbolics, x0, opts={}):
         The interior point method performs Newton steps on the relaxed KKT conditions:
             grad f(x) - mu * grad h(x) = 0
             mu * h(x) - tau = 0
-
-
     """
     opts = {**default_opts, **opts} # Merge default options with user options
     
