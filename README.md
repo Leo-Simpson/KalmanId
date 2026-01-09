@@ -1,8 +1,7 @@
 # KalmanId
 
-This repository contains the code associated to the paper "*Identification of a Kalman Filter: Consistency of Local Solutions"*, by Léo Simpson and Moritz Diehl.
-
-The link to the pre-print should be available soon.
+This repository contains the code associated to the paper 
+[_"Identification of a Kalman Filter: Consistency of Local Solutions"_by Léo Simpson and Moritz Diehl.](https://arxiv.org/pdf/2601.04198.pdf)
 
 # The problem we are solving
 
