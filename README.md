@@ -2,7 +2,7 @@
 
 This repository contains the code associated to the paper [*Identification of a Kalman Filter: Consistency of Local Solutions* by Léo Simpson and Moritz Diehl](https://arxiv.org/pdf/2601.04198.pdf).
 
-# The problem we are solving
+## The problem we are solving
 
 We repeat the problem that we are solving, as described more in detailed in the paper (in particular, in eq. (1), (4) and (6)).
 
@@ -37,7 +37,7 @@ Then, we solve the following optimization problem, for some constant $\alpha > 0
 Much more details about the problem, the approach, and the experiments can be found in the paper.
 Notably, the paper proves the consistency of this approach, even when only local solutions of the optimization problem are found.
 
-# Organization of the files
+## Organization of the files
 
 * The files in the folder ``scripts/`` contain Python script that correspond to the experiments described in the paper,  section *5. NUMERICAL EXAMPLES*.
 
